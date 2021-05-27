@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, Text, TouchableOpacity, View} from 'react-native';
+import {BackHandler, Image, Text, TouchableOpacity, View} from 'react-native';
 import ContentFrame from '../contentFrame/ContentFrame';
 import {
   winner_results_label,
@@ -20,6 +20,11 @@ const PostGameScreen = props => {
   } else if (winner === 'O') {
     winnerIcon = require('../../images/o_piece.png');
   }
+
+  BackHandler.addEventListener('hardwareBackPress', () => {
+    props.navigation.popToTop(); // If the user press the back button, go to first screen.
+    return true;
+  });
 
   return (
     <ContentFrame>
