@@ -1,0 +1,7 @@
+{
+  "gray": "rgb(103, 103, 103)",
+  "brown": "rgb(179,133,70)",
+  "cyan": "rgb(125,173,168)",
+  "brownTransparent": "rgba(179,133,70,0.5)",
+  "cyanTransparent" : "rgba(125,173,168,0.5)"
+}

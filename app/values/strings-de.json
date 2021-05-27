@@ -1,0 +1,15 @@
+{
+  "back_button_label": "Zurück",
+  "game_title": "Tic Tac Toe",
+  "how_to_play_title": "Spielanleitung",
+  "menu_button_label": "Hauptmenü",
+  "new_game_button_label": "Neues Spiel",
+  "player_o_indicator_label": "0 = Computer",
+  "player_turn_indicator_label": "{PLAYER} ist am Zug",
+  "player_x_indicator_label": "X = Spieler",
+  "quit_game_button_label": "Spiel beenden",
+  "start_game_button_label": "Spiel starten",
+  "tic_tac_toe_instructions": "Setzen Sie 3 Kreuze entweder nebeneinander, untereinander oder horizontal, um das Spiel zu gewinnen.",
+  "tie_results_label": "KEINER HAT GEWONNEN",
+  "winner_results_label": "GEWONNEN"
+}
